@@ -13,24 +13,79 @@
 // console.log(`'сумма покупок:' ${totalPrice}`);
 
 
-const cart = [54, 28, 105, 70, 92, 17, 120, 12, 25, 90];
-let totalPrice = 0;
+//добавить такс 
 
-for (let i = 0; i < cart.length; i += 1) {
-  const productWithTax = cart[i] + cart[i] * 0.2;
-  console.log(productWithTax);
-  totalPrice += productWithTax;
-
-  totalPrice = Number(totalPrice.toFixed(2))
-}
+// const cart = [54, 28, 105, 70, 92, 17, 120, 12, 25, 90];
+// let totalPriceWithoutTax = 0;
+// let totalPrice = 0;
 
 
+// for (let i = 0; i < cart.length; i += 1) {
+//   totalPriceWithoutTax += cart[i];
 
-console.log(totalPrice);
-// console.log(`'сумма покупок:' ${totalPrice}`);
+//   cart[i] = Math.round(cart[i] * 1.2);
+//   totalPrice += cart[i];
+// }
+
+// console.log(`"сумма без налога": ${totalPriceWithoutTax}`);
+// console.log(`'сумма покупок с налогом 20%:' ${totalPrice}`);
 
 
-😂😂
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const cart = [54, 28, 105, 70, 92, 17, 120, 12, 25, 90];
+// let totalPrice = 0;
+
+// for (let i = 0; i < cart.length; i += 1) {
+//   const productWithTax = cart[i] + cart[i] * 0.2;
+//   console.log(productWithTax);
+//   totalPrice += productWithTax;
+
+//   totalPrice = Number(totalPrice.toFixed(2))
+// }
+
+
+
+// console.log(totalPrice);
+// // console.log(`'сумма покупок:' ${totalPrice}`);
+
+
+// 😂😂
 
 
 

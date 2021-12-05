@@ -2,8 +2,81 @@
  * Напиши скрипт который подсчитывает сумму всех чётных чисел в массиве.
  */
 
+// const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 14];
+// let total = 0;
+// let notEvenTotal = 0;
+
+// for (const number of numbers) {
+//   // console.log(number);
+//   if (number % 2 === 0) {
+//     console.log('even', number);
+//     total += number;
+//   } else {
+//     console.log('not even', number);
+//     notEvenTotal += number;
+//   }
+// }
+
+// console.log('total all even numbers', total);
+// console.log('total ll not even numbers', notEvenTotal);
+
+
+//  от обратного с continue
 const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 14];
 let total = 0;
+
+for (const number of numbers) {
+    if (number % 2 !== 0) {
+        console.log(`skip iteration ${number}`);
+        continue;
+    }
+    console.log('even total:', number);
+    console.log(` add total ${total += number}`);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 1 переменная тотал
 
@@ -30,14 +103,14 @@ let total = 0;
 //   }
 // }
 
-for (const number of numbers) {
-  if (number % 2 !== 0) {
-    console.log('Эту итерацию нужно пропустить', number);
-    continue;
-  }
+// for (const number of numbers) {
+//   if (number % 2 !== 0) {
+//     console.log('Эту итерацию нужно пропустить', number);
+//     continue;
+//   }
 
-  console.log(`${number} - четное!!!!`);
-  total += number;
-}
+//   console.log(`${number} - четное!!!!`);
+//   total += number;
+// }
 
-console.log('Total: ', total);
+// console.log('Total: ', total);
