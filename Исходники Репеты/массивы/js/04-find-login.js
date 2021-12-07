@@ -9,8 +9,8 @@
  * - Метод includes() с тернарным оператором
  */
 
-const logins = ['m4ngoDoge', 'k1widab3st', 'poly1scute', 'aj4xth3m4n'];
-const loginToFind = 'aj4xth3m4n';
+// const logins = ['m4ngoDoge', 'k1widab3st', 'poly1scute', 'aj4xth3m4n'];
+// const loginToFind = 'aj4xth3m4n';
 
 // for (let i = 0; i < logins.length; i += 1) {
 //   if (logins[i] !== loginToFind) {
@@ -28,12 +28,12 @@ const loginToFind = 'aj4xth3m4n';
 //   }
 // }
 
-const message = logins.includes(loginToFind)
-  ? `'Пользователь ${loginToFind} найден.'`
-  : `'Пользователь ${loginToFind} не найден.'`;
+// const message = logins.includes(loginToFind)
+//   ? `'Пользователь ${loginToFind} найден.'`
+//   : `'Пользователь ${loginToFind} не найден.'`;
 
 
-console.log(message);
+// console.log(message);
 
 
 
